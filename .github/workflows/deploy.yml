@@ -56,5 +56,5 @@ jobs:
         password: ${{ secrets.VPS_PASSWORD }}
         port: ${{ secrets.VPS_SSH_PORT }}
         source: "stack.yml,Makefile"
-        target: "/home/${{secret.VPS_USER}}/landige"
+        target: "/home/${{secrets.VPS_USER}}/landige"
                     
